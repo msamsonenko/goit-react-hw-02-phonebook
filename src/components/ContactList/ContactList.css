@@ -1,0 +1,26 @@
+.ContactList {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+/* span {
+  display: inline-block;
+} */
+.ContactList__btn {
+  margin-left: 20px;
+}
+.ContactList__item {
+  width: 600px;
+  /* outline: 1px solid black; */
+}
+.ContactList__item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.ContactList__name,
+.ContactList__number {
+  display: inline-block;
+  width: 40%;
+}
+.ContactList__number {
+  width: 30%;
+}

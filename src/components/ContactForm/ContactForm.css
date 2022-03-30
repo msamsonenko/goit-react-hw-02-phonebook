@@ -1,0 +1,22 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+}
+.ContactForm__label {
+  margin: 5px;
+}
+.ContactForm__input {
+  margin: 5px;
+  outline: none;
+}
+.ContactForm__btn {
+  width: 100px;
+  margin: 5px;
+  margin-top: auto;
+  padding: 5px;
+  cursor: pointer;
+}
